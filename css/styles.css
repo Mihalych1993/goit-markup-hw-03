@@ -2,6 +2,8 @@ body {
 font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
+width: 1440px;
+
 }
 
 a {
@@ -15,6 +17,10 @@ ul {
 img {
     display: block;
 }
+
+
+
+
 .header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #FFF;
@@ -136,9 +142,11 @@ color:  #2E2F42;
 .solution {
     background:  #2E2F42;
     
+    
 }
-.title-name {
 
+.title-name {
+    width: 496px;
     color: #ffffff;
 text-align: center;
 font-size: 56px;
@@ -148,7 +156,11 @@ letter-spacing: 0.02em;
 }
 
 .btn-order {
-    background:  #4D5AE5;
+    
+    
+    min-width: 169px;
+    height: 56px;
+    background-color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     border: none;
     color: #FFF;
@@ -157,6 +169,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
 font-weight: 500;
 cursor: pointer;
+
 }
 
 .btn-order:focus , .btn-order:hover {
