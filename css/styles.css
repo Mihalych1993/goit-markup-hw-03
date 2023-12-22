@@ -3,6 +3,8 @@ font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 width: 1440px;
+margin: 0;
+height: 100%;
 
 }
 
@@ -70,39 +72,28 @@ text-transform: uppercase;
     padding: 24px 0;
 }
 
+.studio-nav a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color:  #2E2F42;
+    }
+    
+    .studio-nav a:focus , 
+    .studio-nav a:hover {
+        color: #404bbf;  
+        
+    }
 .address {
     display: flex;
     gap: 40px;
 }
 
 
-.studio-nav a {
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-color:  #2E2F42;
-}
 
-.studio-nav a:focus , 
-.studio-nav a:hover {
-    color: #404bbf;  
-    
-}
 
-.portfolio-nav a {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
 
-    color:  #2E2F42;
-}
-
-.portfolio-nav a:focus , 
-.portfolio-nav a:hover {
-    color: #404bbf;  
-  }
 .contacts-nav a {
     font-size: 16px;
     font-weight: 500;
@@ -141,23 +132,25 @@ color:  #2E2F42;
 
 .solution {
     background:  #2E2F42;
-    
+    padding: 188px 0;
     
 }
 
 .title-name {
-    width: 496px;
+    max-width: 496px;
     color: #ffffff;
 text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+margin-left: 472px;
 }
 
 .btn-order {
-    
-    
+    text-align: center;
+    display: block;
+    margin-left: 636px;
     min-width: 169px;
     height: 56px;
     background-color: #4D5AE5;
@@ -169,6 +162,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
 font-weight: 500;
 cursor: pointer;
+border-radius: 4px;
 
 }
 
@@ -206,6 +200,18 @@ cursor: pointer;
     background-color: #FFFFFF;
 }
 
+.portfolio-nav a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+
+    color:  #2E2F42;
+}
+.portfolio-nav a:focus , 
+.portfolio-nav a:hover {
+    color: #404bbf;  
+  }
 
 .name-app {
     font-weight: 500;
