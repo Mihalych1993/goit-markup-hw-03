@@ -163,18 +163,32 @@ margin-left: 472px;
 font-weight: 500;
 cursor: pointer;
 border-radius: 4px;
-
 }
 
-.btn-order:focus , .btn-order:hover {
+.btn-order:focus ,
+ .btn-order:hover {
     background-color: #404BBF;
 }
+
+.advantages {
+    padding: 120px 0;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+.advantages-text {
+    width: calc((100% - 72px) / 4);
+    width: 264px;
+}
+
 .name-adv {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .text-adv {
@@ -187,6 +201,7 @@ border-radius: 4px;
 
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .name-team {
     font-size: 36px;
@@ -195,9 +210,16 @@ border-radius: 4px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 .team-list-profil {
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .portfolio-nav a {
