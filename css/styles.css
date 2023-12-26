@@ -29,11 +29,13 @@ img {
 
 }
 .container  {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    justify-content: space-between;
+}
+.header-container {
+display: flex;
+justify-content: space-between;
 }
 
 .navigation {
@@ -90,10 +92,6 @@ text-transform: uppercase;
     gap: 40px;
 }
 
-
-
-
-
 .contacts-nav a {
     font-size: 16px;
     font-weight: 500;
@@ -135,34 +133,45 @@ text-transform: uppercase;
     padding: 188px 0;
     
 }
-
 .title-name {
     max-width: 496px;
-    color: #ffffff;
+    color:  #FFF;
 text-align: center;
+
+font-family: Roboto;
 font-size: 56px;
+font-style: normal;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-margin-left: 472px;
+margin: 0 auto;
+
+}
+.first-sect {
+ 
+    
 }
 
 .btn-order {
-    text-align: center;
     display: block;
-    margin-left: 636px;
     min-width: 169px;
     height: 56px;
-    background-color: #4D5AE5;
-    font-family: 'Roboto', sans-serif;
     border: none;
-    color: #FFF;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    color:  #FFF;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+font-style: normal;
 font-weight: 500;
-cursor: pointer;
-border-radius: 4px;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+margin-top: 48px;
+margin-left: auto;
+margin-right: auto;
+
+
+
 }
 
 .btn-order:focus ,
@@ -176,10 +185,11 @@ border-radius: 4px;
 .advantages-list {
     display: flex;
     gap: 24px;
+    
 }
 .advantages-text {
     width: calc((100% - 72px) / 4);
-    width: 264px;
+    
 }
 
 .name-adv {
@@ -189,7 +199,7 @@ border-radius: 4px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    
 }
 
 .text-adv {
@@ -197,7 +207,7 @@ border-radius: 4px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    
 }
 
 
