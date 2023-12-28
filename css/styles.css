@@ -3,7 +3,6 @@ font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 width: 1440px;
-margin: 0;
 height: 100%;
 
 }
@@ -14,6 +13,8 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -25,7 +26,8 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    background-color: #FFF;
+    padding: 24px 0;
+
 
 }
 .container  {
@@ -166,9 +168,6 @@ letter-spacing: 0.64px;
 margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
-
-
-
 }
 
 .btn-order:focus ,
@@ -183,6 +182,7 @@ margin-right: auto;
     display: flex;
     gap: 24px;
     
+    
 }
 .advantages-text {
     width: calc((100% - 72px) / 4);
@@ -196,6 +196,7 @@ margin-right: auto;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    
     
 }
 
@@ -228,13 +229,15 @@ margin-right: auto;
     
 }
 .team-list-profil {
-    
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     text-align: center;
-   
     border-radius: 0px 0px 4px 4px;
-
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-list-text {
+    padding: 32px 0;
 }
 
 
@@ -246,6 +249,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 .name-team {
     margin-bottom: 72px;
+    text-align: center;
 }
 .services-list {
     display: flex;
@@ -253,13 +257,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     column-gap: 24px;
     row-gap: 48px;
     
+    
 background:  #FFF;
 }
 .services-list-img {
     width: calc((100% - 48px) / 3);
-    
-    
-
 }
 .servises-title {
     padding: 32px 16px;
@@ -300,11 +302,10 @@ background:  #FFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-}
-.footer-logo-web a {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .footer-logo  {
     color: #f4f4fd;
 }
