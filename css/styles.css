@@ -6,6 +6,9 @@ width: 1440px;
 height: 100%;
 
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 
 a {
     text-decoration: none;
@@ -241,7 +244,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 
-
 .our-portfolio {
     padding-top: 120px; 
     padding-bottom: 120px;
@@ -256,8 +258,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
-    
 background:  #FFF;
 }
 .services-list-img {
@@ -269,9 +269,6 @@ background:  #FFF;
     border-top: none;
     
 }
-
-
-
 
 .portfolio-nav a:focus , 
 .portfolio-nav a:hover {
